@@ -145,10 +145,10 @@ ul.timeline > li:before {
 		<div class="breadcrumb-section breadcrumb-bg" >
 
 		</div>	
-			<div class="full-height-section error-section" >
-			<div class="full-height-tablecell">
+			<div class="full-height-section error-section"  style="margin-top:-200px !important;">
+			<!-- <div class="full-height-tablecell"> -->
 				<div class="container">
-					<div class="row" style="margin-top:-520px !important;">
+					<div class="row" >
 						<div class="col-lg-8 offset-lg-2 text-center" >
 													<div class="error-text">
 							<img src="assets/img/box.png" alt="" width="150">
@@ -236,7 +236,7 @@ ul.timeline > li:before {
 
 					</div>
 				</div>
-			</div>
+			<!-- </div> -->
 		</div>
 
 
@@ -259,6 +259,23 @@ ul.timeline > li:before {
 		
 		<!-- footer -->
 	<!-- end copyright -->
+	<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
 	
 	<!-- jquery -->
 	<script src="assets/js/jquery-1.11.3.min.js"></script>
