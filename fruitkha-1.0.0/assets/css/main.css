@@ -489,7 +489,7 @@ a.boxed-btn, a.bordered-btn, a.cart-btn {
   background-size: cover;
   background-position: center center;
   position: relative;
-  /* z-index: 1; */
+  z-index: 1;
   background-attachment: fixed;
   padding-top: 200px;
 }
@@ -516,7 +516,7 @@ ul.navbar-nav li.nav-item a.nav-link, ul.navbar-nav li.nav-item.active a.nav-lin
 }
 
 .top-header-area {
-  position: absolute;
+  position: absolute;  position: absolute;
   z-index: 999;
   width: 100%;
   padding: 25px 0;
@@ -2676,8 +2676,7 @@ tr.total-data td strong {
   font-weight: 900;
   line-height: 22px;
   margin-top: -11px;
-  color: #F28123;
-}
+  color: #F28123;}
 
 .billing-address-form form p:last-child {
   margin-bottom: 0;
