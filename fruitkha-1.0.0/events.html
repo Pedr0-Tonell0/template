@@ -30,43 +30,12 @@
 	<link rel="stylesheet" href="assets/css/main.css">
 	<!-- responsive -->
 	<link rel="stylesheet" href="assets/css/responsive.css">
-
+	<!-- timeline -->
+	<link rel="stylesheet" href="assets/css/timeline.css">
 
 
 </head>
 <body>
-	<style>
-	ul.timeline {
-    list-style-type: none;
-    position: relative;
-}
-ul.timeline:before {
-    content: ' ';
-    background: #d4d9df;
-    display: inline-block;
-    position: absolute;
-    left: 29px;
-    width: 2px;
-    height: 100%;
-    z-index: 400;
-}
-ul.timeline > li {
-    margin: 20px 0;
-    padding-left: 20px;
-}
-ul.timeline > li:before {
-    content: ' ';
-    background: white;
-    display: inline-block;
-    position: absolute;
-    border-radius: 50%;
-    border: 3px solid #F28123;
-    left: 20px;
-    width: 20px;
-    height: 20px;
-    z-index: 400;
-}
-	</style>
 	<!--PreLoader-->
     <div class="loader">
         <div class="loader-inner">
@@ -126,26 +95,58 @@ ul.timeline > li:before {
 						      </h5>
 						    </div>
 						    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-						      <div class="card-body">
-						        <div class="shipping-address-form">
-									<div class="container mt-5 mb-5">
-	<div class="row">
-		<div class="col-md-6 offset-md-3" style="text-align:left">
-			<ul class="timeline" >
-				<li>
-					<p><b>Estado:</b> En preparación</p>
-					<p><b>Fecha:</b> 15/07/2022</p>
-				</li>
-				<li>
-					<p><b>Estado:</b> En viaje</p>
-					<p><b>Fecha:</b> 16/07/2022</p>
-				</li>
-			</ul>
-		</div>
-	</div>
+<div class="container">	<br />			
+<ul class="timeline">			    				    
+    <li>
+      <div class="tl-circ"></div>
+      <div class="timeline-panel">
+        <div class="tl-heading">
+          <h4>En preparación</h4>
+        </div>
+        <div class="tl-body">
+          <p>Comentario</p>
+        </div>	
+        <div class="tldate">20/05/2022</div>      
+      </div>
+    </li>				    				    
+    <li class="timeline-inverted">
+      <div class="tl-circ"></div>
+      <div class="timeline-panel">
+        <div class="tl-heading">
+          <h4>En viaje</h4>
+        </div>
+        <div class="tl-body">
+          <p>Comentario</p>
+        </div>
+        <div class="tldate" >22/05/2022</div>
+      </div>
+    </li>
+	    <li>
+      <div class="tl-circ"></div>
+      <div class="timeline-panel2">
+        <div class="tl-heading">
+          <h4 style="color:red">No entregado</h4>
+        </div>
+        <div class="tl-body">
+          <p>Comentario</p>
+        </div>
+        <div class="tldate" style="background-color:red">22/05/2022</div>
+      </div>
+    </li>		    				    
+    <li class="timeline-inverted">
+      <div class="tl-circ"></div>
+      <div class="timeline-panel" style="border-right:20px solid green; border-left: 1px solid #888; ">
+        <div class="tl-heading">
+          <h4 style="color:green">Entregado</h4>
+        </div>
+        <div class="tl-body">
+          <p>Comentario</p>
+        </div>
+        <div class="tldate" style="background-color:green">22/05/2022</div>
+      </div>
+    </li>
+  </ul>
 </div>
-						        </div>
-						      </div>
 						    </div>
 						  </div>
 						  <div class="card single-accordion">
@@ -157,75 +158,58 @@ ul.timeline > li:before {
 						      </h5>	
 						    </div>
 						    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-						      <div class="card-body">
-						        <div class="shipping-address-form">
-									<div class="container mt-5 mb-5">
-	<div class="row">
-		<div class="col-md-6 offset-md-3" style="text-align:left">
-			<ul class="timeline" >
-				<li>
-					<p><b>Estado:</b> En preparación</p>
-					<p><b>Fecha:</b> 15/07/2022</p>
-				</li>
-				<li>
-					<p><b>Estado:</b> En viaje</p>
-					<p><b>Fecha:</b> 16/07/2022</p>
-				</li>
-								<li>
-					<p><b>Estado:</b> En preparación</p>
-					<p><b>Fecha:</b> 15/07/2022</p>
-				</li>
-				<li>
-					<p><b>Estado:</b> En viaje</p>
-					<p><b>Fecha:</b> 16/07/2022</p>
-				</li>
-								<li>
-					<p><b>Estado:</b> En preparación</p>
-					<p><b>Fecha:</b> 15/07/2022</p>
-				</li>
-				<li>
-					<p><b>Estado:</b> En viaje</p>
-					<p><b>Fecha:</b> 16/07/2022</p>
-				</li>
-								<li>
-					<p><b>Estado:</b> En preparación</p>
-					<p><b>Fecha:</b> 15/07/2022</p>
-				</li>
-				<li>
-					<p><b>Estado:</b> En viaje</p>
-					<p><b>Fecha:</b> 16/07/2022</p>
-				</li>
-								<li>
-					<p><b>Estado:</b> En preparación</p>
-					<p><b>Fecha:</b> 15/07/2022</p>
-				</li>
-				<li>
-					<p><b>Estado:</b> En viaje</p>
-					<p><b>Fecha:</b> 16/07/2022</p>
-				</li>
-								<li>
-					<p><b>Estado:</b> En preparación</p>
-					<p><b>Fecha:</b> 15/07/2022</p>
-				</li>
-				<li>
-					<p><b>Estado:</b> En viaje</p>
-					<p><b>Fecha:</b> 16/07/2022</p>
-				</li>
-								<li>
-					<p><b>Estado:</b> En preparación</p>
-					<p><b>Fecha:</b> 15/07/2022</p>
-				</li>
-				<li>
-					<p><b>Estado:</b> En viaje</p>
-					<p><b>Fecha:</b> 16/07/2022</p>
-				</li>
-			</ul>
-		</div>
-	</div>
+<div class="container">	<br />			
+<ul class="timeline">			    				    
+    <li>
+      <div class="tl-circ"></div>
+      <div class="timeline-panel">
+        <div class="tl-heading">
+          <h4>En preparación</h4>
+        </div>
+        <div class="tl-body">
+          <p>Comentario</p>
+        </div>	
+        <div class="tldate">20/05/2022</div>      
+      </div>
+    </li>				    				    
+    <li class="timeline-inverted">
+      <div class="tl-circ"></div>
+      <div class="timeline-panel">
+        <div class="tl-heading">
+          <h4>En viaje</h4>
+        </div>
+        <div class="tl-body">
+          <p>Comentario</p>
+        </div>
+        <div class="tldate" >22/05/2022</div>
+      </div>
+    </li>
+	    <li>
+      <div class="tl-circ"></div>
+      <div class="timeline-panel2">
+        <div class="tl-heading">
+          <h4 style="color:red">No entregado</h4>
+        </div>
+        <div class="tl-body">
+          <p>Comentario</p>
+        </div>
+        <div class="tldate" style="background-color:red">22/05/2022</div>
+      </div>
+    </li>		    				    
+    <li class="timeline-inverted">
+      <div class="tl-circ"></div>
+      <div class="timeline-panel" style="border-right:20px solid green; border-left: 1px solid #888; ">
+        <div class="tl-heading">
+          <h4 style="color:green">Entregado</h4>
+        </div>
+        <div class="tl-body">
+          <p>Comentario</p>
+        </div>
+        <div class="tldate" style="background-color:green">22/05/2022</div>
+      </div>
+    </li>
+  </ul>
 </div>
-
-						        </div>
-						      </div>
 						    </div>
 						  </div>
 						</div>
