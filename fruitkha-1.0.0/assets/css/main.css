@@ -2669,7 +2669,7 @@ tr.total-data td strong {
 
 .card.single-accordion .card-header h5 button:before {
   position: absolute;
-  left: 20px;
+  right: 20px;
   top: 50%;
   content: "\f055";
   font-family: "Font Awesome 5 Free";
