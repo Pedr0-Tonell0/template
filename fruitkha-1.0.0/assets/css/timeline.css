@@ -25,10 +25,12 @@ img { border: 0; max-width: 100%; }
   left: 50%;
   margin-left: -1.5px;
 }
-
+.tldate{
+  background: #f28123 !important
+}
 .timeline-inverted .tldate{
   right:20px;
-  background: #009688
+  background: #f28123
 }
 
 /*FECHA CAMBIAR COLOR*/
@@ -84,7 +86,7 @@ img { border: 0; max-width: 100%; }
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
   border-radius: 8px;
-  border-left:20px solid #FF9800;
+  border-left:20px solid #f28123;
 }
 
 .timeline li .timeline-panel2 {
@@ -102,7 +104,7 @@ img { border: 0; max-width: 100%; }
 
 
 .timeline li.timeline-inverted .timeline-panel{
-  border-right:20px solid #009688;
+  border-right:20px solid #f28123;
   border-left: 1px solid #888;
 }
 
@@ -191,7 +193,7 @@ img { border: 0; max-width: 100%; }
 
 /** timeline content **/
 .timeline-inverted .tl-heading h4{
-  color: #009688;
+  color: #f28123;
 }
 
 /*COLOR DEL TEXTO*/
@@ -203,7 +205,7 @@ img { border: 0; max-width: 100%; }
 .tl-heading h4{
   margin: 0;
   font-weight: 400;
-  color: #FF9800;
+  color: #f28123;
   text-transform: uppercase;
 }
 
@@ -238,17 +240,17 @@ img { border: 0; max-width: 100%; }
     border-left: 1px solid;
   }
   .timeline li .timeline-panel{
-    border-right: 20px solid #ff9800;
+    border-right: 20px solid #f28123;
   }
     .timeline li .timeline-panel2{
     border-right: 20px solid red;
   }
    .timeline li.timeline-inverted .timeline-panel{
-    border-right: 20px solid #009688;
+    border-right: 20px solid #f28123;
     border-left: 1px solid;
   }
      .timeline li.timeline-noentregado .timeline-panel{
-    /* border-right: 20px solid #009688; */
+    /* border-right: 20px solid #f28123; */
     /* border-left: 1px solid; */
   }
   ul.timeline:before {
